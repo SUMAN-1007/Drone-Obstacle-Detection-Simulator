@@ -2,6 +2,19 @@
 
 This Arduino-based project simulates a drone detecting obstacles using an HC-SR04 ultrasonic sensor. Visual and audio feedback is provided via LEDs, a buzzer, and an OLED display. It also includes a push button to toggle the system on/off.
 
+🎯 Goal:
+Simulate a drone detecting nearby obstacles using ultrasonic sensors and reacting by printing actions like "Obstacle Ahead – Ascend" or "Path Clear" to the Serial Monitor.
+
+Platform: Wokwi Simulator
+
+DroneObstacleSimulator/
+│
+├── Drone_Obstacle_Simulation.ino   ← Arduino code
+├── README.md
+└── screenshots/
+    └── simulation_result.png
+
+
 ## 🔧 Features
 - Distance measurement via ultrasonic sensor
 - OLED display with live distance output
@@ -10,7 +23,7 @@ This Arduino-based project simulates a drone detecting obstacles using an HC-SR0
 - Push button to start/stop detection
 
 ## 📷 Circuit Diagram
-![Circuit](images/circuit_diagram.png)
+
 
 ## 🧠 Components Used
 - Arduino Uno
@@ -20,3 +33,10 @@ This Arduino-based project simulates a drone detecting obstacles using an HC-SR0
 - Buzzer
 - Push Button
 - Resistors (220Ω)
+
+## 🖥️ Serial Monitor Output
+Distance: 34.78 cm
+✅ Path Clear
+Distance: 16.54 cm
+⚠️ Obstacle Ahead!
+
