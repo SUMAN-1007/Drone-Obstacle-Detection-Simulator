@@ -12,7 +12,7 @@ DroneObstacleSimulator/
 ├── Drone_Obstacle_Simulation.ino   ← Arduino code
 ├── README.md
 └── screenshots/
-    └── simulation_result.png
+    └── CKT.png
 
 
 ## 🔧 Features
@@ -23,7 +23,7 @@ DroneObstacleSimulator/
 - Push button to start/stop detection
 
 ## 📷 Circuit Diagram
-
+![Circuit](CKT.png)
 
 ## 🧠 Components Used
 - Arduino Uno
@@ -39,4 +39,7 @@ Distance: 34.78 cm
 ✅ Path Clear
 Distance: 16.54 cm
 ⚠️ Obstacle Ahead!
+
+## 💻 Simulation
+Try it online: [https://wokwi.com/projects/434637932191287297](#)
 
